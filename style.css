@@ -1,0 +1,192 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+.row
+{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+body
+{
+    font-family:tahoma;
+}
+.hero
+{
+    position: absolute;
+    width: 1140px;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(3.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1
+{
+    color: #e67e22;
+    font-size: 90px;
+    text-align: center;
+}
+h2
+{
+   color: #e67e22;
+    font-size: 90px; 
+}
+.main-nav
+{
+    list-style: none;
+    float: right;
+    margin-top: 60px;
+}
+.main-nav li
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: bold;
+}
+.main-nav li a:hover
+{
+    color: #e67e22;
+    border-bottom: 2px solid #e67e22;
+    transition: all 0.5s ease-in;
+    padding: 15px 0;
+}
+.btn
+{
+    border: 1px solid #e67e22;
+    padding: 10px 30px;
+    color: #e67e22;
+    text-decoration: none;
+    border-radius: 12px;
+}
+.button-awesome
+{
+    margin-top: 50px;
+}
+.btn-half
+{
+  background: #e67e22;
+    color: white;
+}
+.btn-full:hover
+{
+    background-color: #e67e22;
+    color: white;
+    transition: all 0.5 ease-in;
+}
+.copy
+{
+    width: 70%;
+    margin-left: 15%
+}
+h3:after
+{
+    width: 100px;
+    height: 2px;
+    background: #e67e22;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.futures h3
+{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.meal-showcase
+{
+    list-style: none;
+    width: 100%;
+}
+.meal-showcase li
+{
+    display: block;
+    width: 25%;
+    float: left;
+}
+.meal-photo
+{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.meal-photo img
+{
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: all 0.5s;
+}
+.meal-photo img:hover
+{
+   transform: scale(1.05); 
+}
+.meal
+{
+    margin-top: 60px;
+}
+footer 
+{
+    height: 400px;
+    background-color: darkgray;
+}
+.copyright
+{
+    text-align:center;
+    font-weight: bold;
+    padding-bottom:45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
